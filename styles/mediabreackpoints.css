@@ -1,0 +1,193 @@
+@media (max-width: 600px) and (min-width: 0px) {
+    .header>.nav-main {
+        padding-top   : 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .header>.nav-main>.menu-desktop {
+        display: none;
+    }
+
+    .header>.nav-main>.menu-mobile {
+        display     : flex;
+        margin-left : 2rem;
+        margin-right: 2rem;
+    }
+
+    /*First Section*/
+    .first-section>.projects-gallery>.title {
+        padding-top   : 1rem;
+        padding-bottom: 1rem;
+        text-align    : center;
+        font-size     : 18px;
+    }
+
+    .first-section>.projects-gallery>.subtitle {
+        padding-top   : 1rem;
+        padding-bottom: 1rem;
+        margin-left   : 15%;
+        margin-right  : 15%;
+        text-align    : center;
+        text-align    : justify;
+        font-size     : 16px;
+    }
+
+    .projects-gallery>.projects-presentation>.projects-container {
+        display  : flex;
+        flex-flow: column;
+    }
+
+    .projects-container>.project {
+        display  : flex;
+        flex-flow: column;
+
+    }
+
+    .project>.cont-project-img,
+    .project>.cont-project-text {
+        align-self: center;
+    }
+
+    .project>.cont-project-img>.project-img {
+        max-width : 596px;
+        max-height: 596px;
+    }
+
+    /*Contact */
+    .contact .row {
+        flex-flow: column;
+    }
+
+    .contact-container .row .presentation {
+        font-family: 'Cantarell';
+        max-width  : 100vw;
+    }
+
+    .presentation>.map {
+        height: 300px;
+    }
+
+    .presentation .description-card h1 {
+        font-size: 16px;
+    }
+
+    /*Nosotros*/
+
+    .teams-gallery .title {
+        padding-top   : 1rem;
+        padding-bottom: 1rem;
+        text-align    : center;
+        font-size     : 18px;
+    }
+
+    .teams-gallery .subtitle {
+        padding-top   : 1rem;
+        padding-bottom: 1rem;
+        margin-left   : 15%;
+        margin-right  : 15%;
+        text-align    : center;
+        text-align    : justify;
+        font-size     : 16px;
+    }
+
+    .team-content .row {
+        display    : flex;
+        flex-flow  : column;
+        align-items: center;
+    }
+
+    .team-content .column {
+        float  : left;
+        width  : 70%;
+        margin : 16px 0;
+        padding: 0 8px;
+    }
+
+    /*Portfolio*/
+    .portfolio-transition article {
+        grid-gap: 8px;
+    }
+
+    .portfolio-transition div {
+        height: 29vw;
+    }
+
+    /*Services*/
+    /*First Section*/
+
+    .first-section>.services-gallery>.title {
+        padding-top   : 1rem;
+        padding-bottom: 1rem;
+        text-align    : center;
+        font-size     : 18px;
+    }
+
+    .first-section>.services-gallery>.subtitle {
+        padding-top   : 1rem;
+        padding-bottom: 1rem;
+        margin-left   : 15%;
+        margin-right  : 15%;
+        text-align    : center;
+        text-align    : justify;
+        font-size     : 16px;
+    }
+
+    .services-presentation>.services-container {
+        flex-flow: row;
+    }
+
+    .services-container>.service {
+        display        : flex;
+        flex-flow      : column;
+        flex-wrap      : nowrap;
+        justify-content: space-around;
+
+    }
+
+    .services-container>.service:nth-child(odd) {
+        flex-direction: column-reverse;
+    }
+
+    .service>.cont-service-img>.service-img {
+        max-width : 596px;
+        max-height: 596px;
+
+    }
+
+    .service>.service-description {
+        width  : 98vw;
+        padding: 2rem;
+    }
+
+    .service>.service-description .service-description-title {
+        font-size: 16px;
+    }
+
+    .service>.service-description .service-description-content {
+        font-size  : 14px;
+        line-height: 1.5rem;
+    }
+
+}
+
+@media (min-width: 600px) {
+    .header>.nav-main {
+        padding-top   : 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .header>.nav-main>.menu-mobile {
+        display: none;
+    }
+
+    .header>.nav-main>.menu-desktop {
+        margin-left : 4rem;
+        margin-right: 4rem;
+        display     : flex;
+    }
+
+    .presentation>.map {
+        min-height: 48vw;
+        min-width : 48vw;
+    }
+}

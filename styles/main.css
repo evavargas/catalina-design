@@ -1,0 +1,39 @@
+html,
+body,
+header,
+main,
+
+footer {
+    padding-left : 0px;
+    padding-right: 0px;
+    margin-left  : 0px;
+    margin-right : 0px;
+}
+
+section,
+div,
+p,
+h1 {
+    margin : 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin-top      : 0;
+    background-color: #040105;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+}
+
+.header>.nav-main>.menu-desktop>.menu-options .nav-list {
+    margin : 0 0;
+    padding: 0 0;
+}
